@@ -1,0 +1,97 @@
+<html>
+<head>
+
+<!-- Content Type Meta tag -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--Responsive Viewport Meta tag-->
+     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+
+<title>QUIZ-lette</title>
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/8ea8de2ccd.css">
+
+<!-- Stylesheets -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"rel="stylesheet"type="text/css"/>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.js"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class=""><a href="#">Play</a></li>
+                    <li><a href="#Download">Download</a></li>
+                    <li><a href="http://www.autismontario.com/">Vist Our Site</a></li>
+                  </ul>
+                </div>
+          <!--/.nav-collapse -->
+        </div>
+      </nav>
+
+<header>
+
+<h1>What Do you Know About Autism?</h1>
+<p>Play a game of true or false</p>
+<button onclick="catAndQuest()" id="start"> START </button>
+</header>
+
+
+<div class="container">
+
+<div id="questions">
+	<div id="count"></div>
+	<div id="category"></span> </div>
+	<div id="quest"> </div>
+	<button onclick="answer(true)" style="display:none;" id="answerT"> TRUE</button>
+	<button onclick="answer(false)" style="display:none;" id="answerF"> FALSE</button>
+	<div id="points"></div>
+</div>
+<div id="winner" style="display:none;">YOU WIN! <br>Congrats, smartypants!</div>
+<div id="looser" style="display:none;">Sorry, no more questions.<br> You loose!</div>
+<button onclick="restart()" style="display:none;" id="reset"> PLAY AGAIN? </button>
+
+
+
+
+</div>
+
+<div class="jumbotron  ">
+<div class="container">
+
+<div id="Download" class="col-12">
+
+<h1 class="text-center" >Play On The Go, </h1>
+<h1 class="text-center" >Download Our App Today!</h1>
+
+<img class="appplaceholder center-block" src="http://jannatulferdous.ca/JFMosque/img/google-play-badge.svg" alt="appbutton">
+
+</div>
+
+</div>
+</div>
+
+<!-- JavaScript -->
+		<script src="main.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
